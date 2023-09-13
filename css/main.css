@@ -1735,21 +1735,12 @@ pre .javascript .function {
   margin-top: 0;
 }
 .site-author-image {
+  display: block;
   margin: 0 auto;
   padding: 2px;
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  transition: 1.4s all;
-}
-.site-author-image:hover {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -transform: rotate(360deg);
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1831,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #50f20d;
+  background: #ff6013;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2668,27 +2659,4 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("https://source.unsplash.com/random/1800x900");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-  }
-  .main-inner {
-    margin-top: 60px;
-    padding: 60px 60px 60px 60px;
-    background: #fff;
-    min-height: 500px;
-  }
-  .site-subtitle {
-    color: #eee;
-  }
-  #footer a {
-    color: #eee;
-  }
-  .menu-item>a {
-    color: #eee;
-  }
 }
